@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="S, Connolly" />
+  <meta name="description" content="" />
+
+  <!-- Load the CDN first -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<body id="race">
+    <h1>Race Horse Game</h1>
+
+    <div id="selection-wrapper">
+      <label for="selection">Please select</label>
+      <select class="selection">
+        <option value="0" disabled selected># of horses</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+      </select>
+    </<div>
+
+    <input type="button" value="Race!" id="go">
+    <input type="button" value="Reset" id="reset">
+    <input type="button" value="Results" id="results">
+
+    <div id="racetrack">
+    </div>
+
+    <div id="raceInfoContainer" class="clearfix">
+        <h2>Results</h2>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,99 @@
+.horse {
+    display: block;
+    position: relative;
+}
+
+button {
+    background: #933;
+    color: #fff;
+    padding: 10px;
+    border: solid 2px #000;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+input[type="button"] {
+    background: #77b72f;
+    color: #fff;
+    padding: 10px 20px;
+    border: solid 1px #444;
+}
+
+input#reset {
+    background: #ff0000;
+    color: #fff;
+}
+
+input#results {
+    background: #fc3;
+    color: #fff;
+    display: none;
+}
+
+body {
+    text-align: center;
+}
+
+#raceInfoContainer {
+    width: 25%;
+    margin: 40px auto 0;
+    background: #333;
+    display: none;
+    position: relative;
+}
+
+#raceInfoContainer h2 {
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: solid 1px #fff;
+    padding: 20px 0;
+}
+
+.raceInfo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.raceInfo span {
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    color: #fff;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#racetrack {
+    border-right: 20px dashed;
+    box-sizing: border-box;
+}
+
+.horse-container {
+    width: 90px;
+    position: relative;
+}
+
+.after {
+    background-color: #fff;
+    padding: 7px;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: -69px;
+    left: 41px;
+    border-radius: 50%;
+}
+
+.selection {
+    border: 1px solid #80808036;
+}
